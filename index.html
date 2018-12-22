@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>CarMart</title>
+        <meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    	<link href="style.css" rel="stylesheet">
+
+    </head>
+    <body>
+    <!-- Navation BAR -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <div class ="container-fluid">
+                <a class ="navbar-brand" href ="index.html">CarMart</a>
+                <button class ="navbar-toggler"type= "button" data-toggle="collapse"
+                data-target ="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <div class ="collapse navbar-collapse" id ="navbarResponsive">
+                <ul class ="navbar-nav ml-auto">
+                    <li class ="nav-item ">
+                        <a class ="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class ="nav-item dropdown ">
+                              <a class="nav-link dropdown-toggle" href="categories.html" id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                  Categories
+                              </a>
+                            <div class="dropdown-menu ml-auto" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="category.html#hatch">Hatch</a>
+                              <a class="dropdown-item" href="category.html#sedan">Sedan</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="category.html#suv">SUV</a>
+                            </div>
+
+                    </li>
+                    <li class ="nav-item dropdown">
+                        <a class ="nav-link dropdown-toggle" href="brands.html" id ="navbarDropdown1"data-toggle="dropdown"aria-haspopup="true" aria-expanded="false" >
+                            Brands</a>
+                        <div class="dropdown-menu ml-auto" aria-labelledby="navbarDropdown1">
+                          <a class="dropdown-item" href="brands.html#luxury">Luxury</a>
+                          <a class="dropdown-item" href="brands.html#midrise">Mid-Rise</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="brands.html#economy">Economy</a>
+                        </div>
+                    </li>
+                    <li class ="nav-item ">
+                        <a class ="nav-link" href="#footer">Contact</a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </nav>
+    <!-- Image Slider -->
+    <div id ="slides" class = "carousel slide" data-ride="carousel">
+    	<ul class ="carousel-indicators">
+    		<li data-target ="#slides" data-slide-to ="0" class ="active"></li>
+    		<li data-target ="#slides" data-slide-to ="1" ></li>
+    		<li data-target ="#slides" data-slide-to ="2" ></li>
+    	</ul>
+    	<div class ="carousel-inner">
+    		<div class ="carousel-item active">
+    			<img src ="img/1.jpg">
+                <div class="carousel-caption">
+                <h3> "The Car you DRIVE tells a lot about YOU"</h3>
+                </div>
+    		</div>
+    		<div class ="carousel-item ">
+    			<img src ="img/2.jpg">
+    		</div>
+    		<div class ="carousel-item ">
+    			<img src ="img/4.jpg">
+    		</div>
+    	</div>
+    </div>
+
+    <!-- JUMBOTRON -->
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <div class ="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                <p class="lead"> We are developing a new Citizenery where people
+                    are more selective about automobiles than their lives!!
+                </p>
+            </div>
+            <div class ="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <a href="#"><button type="button"class ="btn-ltn-outline-secoundary
+                btn-lg "> Know more </button></a>
+            </div>
+        </div>
+    </div>
+    <footer id ="footer">
+    	<div class="container-fluid padding">
+    	<div class="row text-center">
+    		<div class="col-md-4">
+                <hr class ="light">
+                <h5> Carmart</h5>
+    			<hr class ="light">
+    			<p>999-999-9999</p>
+    			<p>email@yahoo.com</p>
+    			<p>221B/Baker street</p>
+    			<p> City,State,0000</p>
+    		</div>
+    		<div class= "col-md-4">
+    			<hr class="light">
+    			<h5>Our Hours</h5>
+    			<hr class="light">
+    			<p>Monday: 9am-10pm</p>
+    			<p>Saturday: 10am-4pm</p>
+    			<p>Sunday: Closed</p>
+    		</div>
+    		<div class= "col-md-4">
+    			<hr class="light">
+    			<h5>Our Locations</h5>
+    			<hr class="light">
+    			<p> City,State,0000</p>
+    			<p> City,State,0000</p>
+    			<p> City,State,0000</p>
+    			<p> City,State,0000</p>
+    		</div>
+    		<div class ="col-12">
+    			<hr class="light">
+    			<h5>&copy; carmart.com</h5>
+    		</div>
+    	</div>
+    </div>
+    </footer>
+
+
+
+
+
+
+
+
+    </body>
+</html>

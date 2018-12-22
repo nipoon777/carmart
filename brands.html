@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        carmart
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class ="container-fluid">
+            <a class ="navbar-brand" href ="index.html">CarMart</a>
+            <button class ="navbar-toggler"type= "button" data-toggle="collapse"
+            data-target ="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class ="collapse navbar-collapse" id ="navbarResponsive">
+            <ul class ="navbar-nav ml-auto">
+                <li class ="nav-item ">
+                    <a class ="nav-link" href="index.html">Home</a>
+                </li>
+                <li class ="nav-item dropdown ">
+                          <a class="nav-link dropdown-toggle" href="categories.html" id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                              Categories
+                          </a>
+                        <div class="dropdown-menu ml-auto" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="category.html#hatch">Hatch</a>
+                          <a class="dropdown-item" href="category.html#sedan">Sedan</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="category.html#suv">SUV</a>
+                        </div>
+
+                </li>
+                <li class ="nav-item dropdown">
+                    <a class ="nav-link dropdown-toggle" href="brands.html" id ="navbarDropdown1"data-toggle="dropdown"aria-haspopup="true" aria-expanded="false" >
+                        Brands</a>
+                    <div class="dropdown-menu ml-auto" aria-labelledby="navbarDropdown1">
+                      <a class="dropdown-item" href="brands.html#luxury">Luxury</a>
+                      <a class="dropdown-item" href="brands.html#midrise">Mid-Rise</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="brands.html#economy">Economy</a>
+                    </div>
+                </li>
+                <li class ="nav-item ">
+                    <a class ="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+
+              <li class="nav-item">
+                <a class="nav-link" href="#luxury">
+                  luxury
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#midrise">
+                  Mid-rise
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#economy">
+                  Economy
+                </a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+  <!-- right margin -->
+  <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 "
+  name = "rmargin" >
+
+    <div id ="luxury" class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+      <h1 class="h2">LUXURY</h1>
+      <hr>
+  </div>
+  <div id ="rolls" class="logo">
+      <h3> Rolls-Royce</h3>
+     <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+     </p>
+     <img src ="img/rolls.jpg" class="logo">
+     <p>
+          <ul class="list-group">
+          <li class="list-group-item active">Phantom </li>
+          <li class="list-group-item">Phantom-II</li>
+
+          </ul>
+      </p>
+  </div>
+    <div id ="midrise" class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+      <h1 class="h2">MIDRISE</h1>
+      <hr>
+  </div>
+  <div id ="merc" class="logo">
+      <h3> MERCEDES</h3>
+     <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+     </p>
+     <img src ="img/merc.png " class="logo">
+     <p>
+          <ul class="list-group">
+          <li class="list-group-item active">A-Class</li>
+          <li class="list-group-item">B-Class</li>
+          <li class="list-group-item">C-Class</li>
+          <li class="list-group-item">S-class</li>
+          <li class="list-group-item">AMG</li>
+          </ul>
+      </p>
+  </div>
+  <div id ="economy" >
+      <h1 class="h2">ECONOMY</h1>
+      <hr>
+  </div>
+  <div id ="honda" class="logo">
+      <h3> HONDA</h3>
+     <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+     </p>
+     <img src ="img/honda.png" class="logo">
+     <p>
+         <ul class="list-group">
+         <li class="list-group-item active">Accord</li>
+         <li class="list-group-item">BRV</li>
+         <li class="list-group-item">City</li>
+         </ul>
+     </p>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

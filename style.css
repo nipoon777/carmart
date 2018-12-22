@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,body
+{
+    height:100%;
+    width:100%;
+    font-family:"Poppins",sans-serif;
+
+}
+.navbar-brand{
+    font-size:300%;
+    font-weight:bold;
+    font-family:"Poppins",sans-serif;
+
+
+}
+.navbar{
+    padding: .8rem;
+}
+.navbar-nav li
+{
+    float:right;
+    padding-right:20px;
+}
+.navbar-link{
+    font-size: 1.1em !important;
+
+}
+.carousel-inner img
+{
+    width:100%;
+    height:100%;
+}
+.carousel-caption h2
+{
+    font-family:arial;
+    font-size:2.5em;
+
+}
+
+.cars img
+{
+    width:50%;
+    height:50%;
+}
+
+.logo img
+{
+    width:20%;
+    height:20%;
+}
